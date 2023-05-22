@@ -1,8 +1,10 @@
 # DysonCloudArchive 戴森球计划云存档
-DysonCloudArchive 戴森球计划云存档 不改变客户端 配置简单  
+DysonCloudArchive 戴森球计划云存档 **不修改客户端**  
 **首先需要一个SMB服务器**  
 下载DysonCloudArchive-1.0-SNAPSHOT-jar-with-dependencies.jar  
-在同一级目录下创建文件config.json(不手动创建会自动生成)然后填写具体配置，smb_host可以填域名
+在同一级目录下创建文件config.json(不手动创建会自动生成)然后填写具体配置  
+**注意用"/"而不是反斜杠**  
+smb_host可以填域名
 ```
 {
 "local_folder":"C:/Users/Users/Documents/Dyson Sphere Program/Save",
