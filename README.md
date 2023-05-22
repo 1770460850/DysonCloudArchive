@@ -21,3 +21,7 @@ smb_host可以填域名
 java -jar DysonCloudArchive-1.0-SNAPSHOT-jar-with-dependencies.jar  
 ```
 可以在DysonCloudArchive-1.0-SNAPSHOT-jar-with-dependencies.jar同一级目录下创建一个bat文件以快速启动。
+
+
+**已知的问题：**  
+1.上传和下载的速度只有100Mbps左右
